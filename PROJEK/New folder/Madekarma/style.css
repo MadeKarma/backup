@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.wrapper{
+    display: flex;
+    background-color: #7FB77E;
+    height: 65px;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+}
+.wrapper, .nama, .nama h3, .nav-bar{
+    display: flex;
+    align-items: center;
+}
+.nama{
+    margin-left: 20px;
+    font-size: 27px;
+    cursor: pointer;
+}
+.nav-bar li{
+    list-style: none;
+    display: flex;
+    padding-right: 30px;
+}
+.nav-bar li a{
+    color: #131C35;
+    font-size: 23px;
+}
+
+/* container atas */
+
+.container-atas{
+    width: 100%;
+    position: relative;
+}
+.bg-atas{
+    position: absolute;
+    height: 530px; width: 100%;
+    background-image: url(2.jpg);
+    background-size: cover;
+    background-position: 0 -80px;
+}
+.bg-atas::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(275deg,rgba(10,10,10,0) 0,rgba(10,10,10,.8) 120%);
+}
+.awal{
+    top: 225px;
+    left: 90px;
+    position: absolute;
+    text-align: center;
+}
+
+/* awal */
+.about {
+    background-color: red;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about img {
+    width: 50%;
+    border-radius: 10%;
+    padding: 20px;
+}
+
+.about p {
+    font-size: 20px;
+    padding-top: 100px;
+}
+
+.about p i {
+    color: red;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.projects h2{
+    text-align: center;
+}
+
+.projects ul li{
+    margin: 30px;
+    list-style-type: none
+}
+.projects ul li a{
+    text-decoration: none;
+    border: 2px solid silver;
+    border-radius: 10px;
+    ;
+    padding: 10px;
+    text-align: center;
+    width: 20%;
+    color: black;
+}
+
+.projects ul li a:hover{
+    border: 2px solid red;
+    color: red;
+    transition: .3s;
+    text-decoration: underline;
+}
+
+.tengah {
+	text-align: center;
+	width: 100%;
+}
+
+.tutor-list {
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.kartu-tutor {
+	width: 20%;
+	margin: 0 auto;
+}
+
+.kartu-tutor img {
+	width: 80%;
+	border-radius: 50%;
+}
+
+.kartu-tutor p {
+	font-family: 'comic sans ms';
+	font-weight: 800;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}

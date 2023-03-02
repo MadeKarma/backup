@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>program</title>
+    <script>
+        window.onload = function() {
+            alert('Selamat Datang');
+            document.getElementById('Judul') .innerHTML = "Mudahnya Belajar JavaScript";
+            console.log ('Skrip sukses dieksekusi');
+
+        }
+    </script>
+</head>
+<body>
+    <h2 id="Judul"></h2>
+    <input type="text" id="int">
+    <p id="display"></p>
+
+    <button id="click">ENTER</button>
+    <script>
+        document.getElementById('click').addEventListener('click',() => {
+            document.getElementById('display').innerText = document.getElementById('int').value
+        })
+    </script>
+</body>
+</html>

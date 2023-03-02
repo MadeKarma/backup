@@ -1,0 +1,10 @@
+h1 {
+	font-family: arial;
+	font-size: 40px;
+	font-style: italic;
+	font-variant: small-caps;
+}
+p {
+	line-height: 4
+	color: lightseagreen;
+}

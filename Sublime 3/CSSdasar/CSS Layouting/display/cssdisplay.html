@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Display</title>
+	<style type="text/css">	
+		a {
+			background-color: pink;
+		}
+		/* diatas contoh display inline. Jadi display inline akan mengikuti isi konten sampai akhir dan tidak membuat baris baru */
+		.main {
+			background-color: lightgreen;
+			width: 600px;
+		}
+		.main h2 { background-color: red; }
+		.main span { background-color: orange; }
+		body { background-color: grey; }
+		h1, h2, p {
+			background-color: royalblue;
+		}
+		/* diatas merupakan contoh display block. Jadi, jika tidak diatur lebar-nya, maka lebar default dari elemen block akan memenuhi lebar dari browser atau parent-nya */
+	</style>
+</head>
+<body>
+	<div class="header">
+	<h1>Selamat Datang Di Gak Tau Gaming</h1>
+	</div>
+	<div class="navigasi">
+	<h2>Daftar Link</h2>
+	<a href="#">Link 1</a>
+	<a href="#">Link 2</a>
+	<a href="#">Link 3</a>
+	<a href="#">Link 4</a>
+	</div>
+	<div class="main">
+	<h2>Judul Artikel</h2>
+	<img src="spone.jpg" width="30%">
+	<p>Dimulai dari awal liburan semester banyak saya habiskan di rumah untuk memulai hobi saya yaitu menonton film, anime <span>(kartun versi jepang)</span> bermain gitar serta membaca komik dan novel.</p>
+	<p>Dimulai dari awal liburan semester banyak saya habiskan di rumah untuk memulai hobi saya yaitu menonton film, anime(kartun versi jepang) bermain gitar serta membaca komik dan novel.</p>
+	</div>
+	<div class="copyright">
+	<p>Copyright 2021. varsging.</p>
+	</div>
+<!-- tag div dan span tdak memiliki arti seperti tag h1 sebagai haader atau p sebagai paragraf. tag div dan span hanya digunakan untuk pengelompokan saja --> 
+</body>
+</html>

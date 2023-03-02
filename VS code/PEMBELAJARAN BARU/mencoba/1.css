@@ -1,0 +1,46 @@
+file style.css
+
+* {
+    box-sizing: border-box;
+}
+
+/* Mengatur font yang dipakai dan background halaman */
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #038ade;
+}
+
+.kontener {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.login {
+    margin-top: 150px;
+    flex-basis: 400px;
+    background: #fff;
+    padding: 20px;
+}
+
+.login h2 {
+    border-bottom: 1px solid #ccc;
+    color: #555;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0 0 20px;
+}
+input ,select {
+    width: 90%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+}
+
+input [type=submit] {
+    background-color: #038ade;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+}

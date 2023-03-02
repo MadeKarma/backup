@@ -1,0 +1,61 @@
+.container {
+	width: 600px;
+	border: 1px solid black;
+	margin: auto;
+	padding: 5px;
+}
+
+.satu, .dua, .tiga {
+	width: 100px;
+	height: 100px;
+}
+.satu {
+	background-color: salmon;
+}
+.dua {
+	background-color: limegreen;
+	float: right;
+}
+.tiga {
+	background-color: lightskyblue;
+}
+/* diatas merupakan contoh fungsi dan penggunaan dari float,
+ jadi jika kalian memakai float pada tengah tengah elemen (seperti contoh diatas)
+ maka elemen selanjutnya akan menganggap elemen yang menggunakan float itu tidak ada
+ dan akan berpindah posisi ke tempat elemen sebelumnya saat tidak menggunakan float */
+ /* cara mencobanya:
+ .dua {
+	background-color: limegreen;
+	float: left;
+	padding: 10px;
+ } 
+ Jadi kalian bisa cop yang diatas terus tempel :) */
+ .container2 {
+	width: 600px;
+	border: 1px solid black;
+	margin: 25px auto;
+	padding: 5px;
+}
+img {
+	width: 200px;
+	float: left;
+	margin: 4px;
+}
+.biasa1 {
+	text-align: justify;
+}
+ .container3 {
+	width: 600px;
+	border: 1px solid black;
+	margin: 25px auto;
+	padding: 5px;
+	overflow: auto;
+}
+img {
+	width: 200px;
+	float: left;
+	margin: 4px;
+}
+.biasa {
+	text-align: justify;
+}

@@ -1,0 +1,2 @@
+- membuat fixed background scrolling effect
+   => dengan menambahkan gambar dan background-attachment fixed pada css 

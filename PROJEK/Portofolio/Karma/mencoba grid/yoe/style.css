@@ -1,0 +1,25 @@
+.block1{
+    grid-area: kntl1;
+}
+.block2{
+    grid-area: kntl2;
+}
+.block3{
+    grid-area: kntl3;
+}
+.block4{
+    grid-area: kntl4;
+}
+.cont {
+    display:grid;
+    grid-template-areas: 
+    'kntl2 kntl1 kntl1 kntl1'
+    'kntl2 kntl1 kntl1 kntl4'
+    ;
+    padding: 10px;
+    gap: 10px;
+    background-color: aqua;
+}
+.cont > div {
+    background: #f11d5d;
+}

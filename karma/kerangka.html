@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>pelajarinYaBang</title>
+    <link rel="stylesheet" href="kerangka.css">
+    <!-- baca!!
+
+    aku sengaja kasi backgroundColor biar lebih gampang dipelajari
+    backgroundColor boleh dihilangkan kalo mau lihat versi asli
+    ini website "kerangka" yang cuman ada komponen komponen aja
+    desain sendiri ya bg, pake komponen - komponen disini, anggap aja latihan
+    kalo bingung boleh ditanya
+
+    -Angga- -->
+</head>
+<body class="light">
+    <!-- navbar start -->
+    <div class="navbar">
+        <h1>si<b>Coding</b></h1>
+        <ol>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#box">Box/Card</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <button>LIGHT</button>
+        </ol>
+    </div>
+    <!-- navbar start -->
+    
+    <!-- home start -->
+    <div id="home">
+        <div class="row">
+            <div class="container1">
+                <div class="desk">
+                    Balok 1 
+                    <br>hello world test
+                </div>
+            </div>
+            <div class="container2">balok 2</div>
+            <div class="container3">balok 3</div>
+        </div>
+    </div>
+    <!-- home end -->
+
+    <!-- tutorial box start -->
+    <div id="box">
+        <div class="row">
+            <div class="col">box 1</div>
+            <div class="col">box 2</div>
+            <div class="col">box 3</div>
+            <div class="col">box 4</div>
+            <div class="col">box 5</div>
+        </div>
+    </div>
+    <!-- tutorial box end -->
+
+    <!-- Script start -->
+    <script>
+        const button = document.querySelector("button"); 
+        const body = document.querySelector("body");
+
+        button.addEventListener("click", function(){
+            body.classList.toggle("light");
+        });
+    </script>
+    <!-- Script end -->
+</body>
+</html>

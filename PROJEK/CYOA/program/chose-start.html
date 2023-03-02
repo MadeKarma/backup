@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<html lang="ind">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>
+                CYOA
+            </title>
+</head>
+
+<style>
+    body {
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        font-family: Tahoma;
+        }
+
+    h1 {
+        font-family: papyrus;
+        font-size: 80px;   
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+
+        position: absolute;
+        left: 80px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+
+
+    }
+
+    #scene {
+        background: url("../image/chose_start.png") no-repeat;
+        height: 400px;
+        width: 711px;
+
+        position: absolute;
+        top: 20px;
+        left: 20px;
+
+    }
+
+    #situation {
+        position: absolute;
+        top: 310px;
+        left: 30px;
+        padding: 15px;
+
+        background-color: rgba(0, 0, 0, .5);
+        width: 640px;
+        text-align: center;
+    }
+
+    #mountain{
+       
+
+        position: absolute; 
+        
+        width: 48%;
+        height: 310px;
+    }
+    #mountain:hover {
+        background-color: rgba(256, 256, 256, .5);
+    }
+
+    #castle {
+       
+
+        position: absolute;
+        left: 53%;
+
+        width: 48%;
+        height: 310px;
+    }
+    #castle:hover {
+        background-color: rgba(256, 256, 256, .5);
+
+    }
+</style>
+
+
+<body>
+    <div id="scene">
+        
+        <a href="chose-mountain" id="mountain"></a>
+        <a href="chose-castle" id="castle"></a></p>
+
+        <p id="situation">WIll you go to the
+            <a href="chose-mountain" >MOUNTAIN</a>
+            or the
+            <a href="chose-castle">CASTLE</a>?</p>
+    </div>
+   
+    
+    
+
+
+</body>
+</html>

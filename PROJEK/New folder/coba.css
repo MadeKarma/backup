@@ -1,0 +1,360 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* STYLE */
+
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: rgb(137, 132, 129);
+	text-align: justify;
+}
+
+/* HEADER */
+
+nav {
+	right: 2.5%;
+	position: fixed;
+	width: 95%; height: 60px;
+	text-align: center;
+	line-height: 60px;
+	margin: 0 auto 0 auto;
+	display: block;
+	transition: top .3s;
+	z-index: 500;
+}
+
+.title {
+	float: left;
+	background: white;
+	width: 30%; 
+	padding-right: 20px;
+	font-size: 1.5em;
+	font-variant: small-caps;
+	border-radius: 10px;
+}
+.title a {
+	margin-left: -40px;
+}
+.header ul {
+	position: absolute;
+	background: #262626;
+	width: 70%;
+	left: 30%;
+	border-radius: 10px;
+}
+
+.header ul li {
+	list-style: none;
+	width: calc(100% / 4);
+	height: 100%;
+	float: left;
+}
+
+.header ul li a {
+	display: inline-block;
+	width: 100%; height: 100%;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 80%;
+}
+
+.header ul li a:hover {
+	padding-top: 2px;
+	color: black;
+	background: #ff5722;
+	border-radius: 10px;
+	transition: .2s;
+	height: 100%;
+}
+
+/* MAIN */
+
+.space {
+	height: 60px;
+	/* background: red; */
+}
+
+main {
+	width: 80%;
+	margin: auto;
+	/* background: blue; */
+	position: relative;
+}
+
+.jumbotron {
+	padding-top: 200px;
+	height: 300px;
+	width: 100%;
+	line-height: 2.4em;
+    background-color: #d3f1f4;
+    text-align: center;
+    font-size: 1.7em;
+    color: black;
+}
+
+.psatu {
+	width: 97%;
+	margin: auto;
+	box-sizing: border-box;
+	background: rgba(251, 248, 241, .8);
+	padding: 15px 10px;
+	border-radius: 10px;
+}
+
+.pdua {
+	margin: auto;
+	background: rgba(251, 248, 241, .8);
+	padding: 15px 10px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.ptiga {
+	width: 97%;
+	margin: auto;
+	box-sizing: border-box;
+	background: rgba(251, 248, 241, .8);
+	padding: 15px 10px;
+	border-radius: 10px;
+}
+
+.pempat {
+	width: 97%;
+	margin: auto;
+	box-sizing: border-box;
+	background: rgba(251, 248, 241, .8);
+	padding: 15px 10px;
+	border-radius: 10px;
+}
+
+.plima {
+	width: 97%;
+	margin: auto;
+	box-sizing: border-box;
+	background: rgba(251, 248, 241, .8);
+	padding: 25px 0;
+	border-radius: 10px;
+}
+
+.penam {
+	width: 97%;
+	margin: auto;
+	box-sizing: border-box;
+	background: rgba(251, 248, 241, .8);
+	padding: 25px 0;
+	border-radius: 10px;
+}
+
+.ptujuh {
+	width: 97%;
+	margin: auto;
+	box-sizing: border-box;
+	background: rgba(251, 248, 241, .8);
+	padding: 25px 0;
+	border-radius: 10px;
+}
+
+.pdelapan {
+	width: 97%;
+	margin: auto;
+	box-sizing: border-box;
+	background: rgba(251, 248, 241, .8);
+	padding: 15px 10px;
+	border-radius: 10px;
+}
+
+.card{
+	width: 50%;
+	padding-bottom: 15px;
+}
+
+.card1{
+	width: -50%;
+
+}
+.card h2 {
+	font-size: 50px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	border-bottom: 2px solid black;
+}
+
+.card p {
+	margin-top: 20px;
+	font-size: 1.3em;
+	padding-top: 15px;
+	width: 90%;
+	margin: auto;
+}
+#sec3 h2 {
+	font-size: 2em;
+}
+.card1 h2 {
+	font-size: 50px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	margin-left: 52.5%;
+	border-bottom: 2px solid black;
+}
+
+.card1 p {
+	margin-top: 20px;
+	font-size: 1.3em;
+	padding: 15px 0;
+	width: 95%;
+	margin: auto;
+}
+
+.card2 p {
+	margin-top: 20px;
+	font-size: 1.3em;
+	padding-top: 15px;
+	width: 95%;
+	margin: auto;
+	position: relative;
+	bottom: 20px;
+}
+
+.plima h3 {
+	font-size: 2em;
+	padding-left: 30px;
+	padding-bottom: 20px;
+}
+.plima p {
+	width: 92%;
+	padding-top: 20px;
+	margin: auto;
+	font-size: 1.4em;
+}
+
+.penam p {
+	width: 92%;
+	padding-top: 20px;
+	margin: auto;
+	font-size: 1.4em;
+}
+
+.penam h3 {
+	font-size: 2em;
+	padding-left: 30px;
+	padding-bottom: 20px;
+}
+
+.ptujuh h3 {
+	font-size: 2em;
+	padding-left: 30px;
+	padding-bottom: 20px;
+}
+
+.ptujuh p {
+	width: 92%;
+	padding-top: 20px;
+	margin: auto;
+	font-size: 1.4em;
+}
+/* GAMBAR */
+
+.psatu img {
+	width: 48.5%;
+	float: right;
+	margin: 1.2em 0 auto;
+	-webkit-clip-path: polygon(10% 0,100% 0,100% 100%,0 100%);
+	border-radius: 10px;
+}
+
+.pdua img {
+	width: 50%;
+	float: left;
+	margin: 1.1em 2.4em 8em 0;
+	-webkit-clip-path: polygon(0 0,90% 0,100% 100%,0 100%);
+	border-radius: 10px;
+}
+
+.ptiga img {
+	width: 48.5%;
+	float: right;
+	margin: 5em 0 auto;
+	-webkit-clip-path: polygon(10% 0,100% 0,100% 100%,0 100%);
+	border-radius: 10px;
+}
+
+.pempat img {
+	width: 48.5%;
+	float: left;
+	margin: 1.5em 2.4em 5em 0;
+	-webkit-clip-path: polygon(0 0,90% 0,100% 100%,0 100%);
+	border-radius: 10px;
+}
+
+.hero1 {
+	width: 95%;
+	margin: auto;
+	height: 23em;
+	background-image: url(img/desa1.png);
+	background-repeat: no-repeat;
+	background-position: 0 -180px;
+	border-radius: 20px;
+}
+
+.hero2 {
+	width: 95%;
+	margin: auto;
+	height: 23em;
+	background-image: url(img/desa2.png);
+	background-repeat: no-repeat;
+	background-position: 0 -180px;
+	border-radius: 20px;
+}
+
+.hero3 {
+	width: 95%;
+	margin: auto;
+	height: 23em;
+	background-image: url(img/desa3.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 -50vh;
+	border-radius: 20px;
+}
+
+/* TENTANG */
+
+.tengah {
+	text-align: center;
+	width: 100%;
+}
+
+.tutor-list {
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.kartu-tutor {
+	width: 20%;
+	margin: 0 auto;
+}
+
+.kartu-tutor img {
+	width: 80%;
+	border-radius: 50%;
+}
+
+.kartu-tutor p {
+	font-family: 'comic sans ms';
+	font-weight: 800;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}

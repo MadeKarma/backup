@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*
+            percabangan switch merupakan alternatif untuk menggantikan percabangan
+            dengan if ... else if ... else. Namun, Jika variabel yang dicek sama, cara
+            ini lebih disarankan daripada menggunakan if ... else if ... else.
+
+            codenya:
+
+            switch (variabel1) {
+                case kondisi 1: pernyataan;
+                    break;
+                case kondisi 2: pernyataan;
+                    break;
+                case kondisi 3: pernyataan;
+                    break;
+                default: pernyataan default;
+            }
+        */
+            //contohnya
+            
+            var ukuran = "S";
+            switch (ukuran) {
+                case "L" : document.write("Large");
+                    break;
+                case "M" : document.write("Medium");
+                    break;
+                default: document.write("Small");
+            }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ini dibuat oleh Guponn</title>
+	<script>
+	function gamau(id) {
+		var mau = document.getElementById("btn_mau");
+		var i = Math.floor(Math.random() * 300) + 1;
+		var j =  Math.floor(Math.random() *100) + mau.offsetTop;
+		id.style.left = i + "px";
+		id.style.top = j + "px";
+	}
+	</script>
+	<style>
+		body {
+			background-color: #fcfefc;
+			height: 1500px;
+		}
+
+		.logo {
+			width: 100%;
+			margin: auto;
+			display: flex;
+			line-height: 80px;
+			position: sticky;
+			position: -webkit-sticky;
+			top: 0;
+			background: rgb(236, 236, 236);
+			border-bottom: 3px solid rgb(0, 0, 0);
+			z-index: 999;
+		}
+		.logo a {
+			font-size: 50px;
+			font-weight: bold;
+			float: left;
+			font-family: Courier;
+			color: #364f6b;
+			text-decoration: none;
+		}
+		.atas {
+			text-align: center;
+		}
+		.button {
+			padding: 0 48%;
+			float: left
+		}
+		#btn_gamau {
+			position: absolute;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="atas">
+		<div class="wrapper">
+			<div class="logo">
+				<a href="">Hai Yoeliessya</a>
+			</div>
+		</div>
+		<img src="https://media.giphy.com/media/qFmdpUKAFZ6rMobzzu/giphy.gif"
+		title="NGAPAIN DISOROT SOROT HAH!!!!">
+		<h1>Aku kangen sama kamu</h1>
+		<h1>Klo kita ada waktu ketemu boleh gak aku cium bibir kamu</h1>
+	</div>
+
+	<div class="">
+		<button id="btn_mau" onclick="alert('OKE DITUNGGU YA BEBEB <3')">Mau</button>
+		<button id="btn_gamau" onclick="gamau(this)">Ga Mau</button>
+	</div>
+</body>
+
+</html>
